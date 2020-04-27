@@ -1,12 +1,12 @@
 {
-  "name": "web",
+  "name": "novosti",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
     "start": "npm run build && gulp serve"
   },
-  "author": "",
+  "author": "Ura",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.7.7",
@@ -35,5 +35,13 @@
     "imagemin-pngquant": "^8.0.0"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallblizzard/novosti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wallblizzard/novosti/issues"
+  },
+  "homepage": "https://github.com/wallblizzard/novosti#readme",
   "description": ""
 }
