@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/**
+ * Основные стили
+ **/
+
+html {
+	font-size: 19px;
+}
+
+body {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.wrapper {
+	@include min-max(320px, 100%, 0);
+}
+
+.container {
+	@include min-max(320px, 1200px, 15px);
+}
+
+.section {
+  position: relative;
+  padding: 40px 0;
+}
+
+a {
+  text-decoration: none;
+}
