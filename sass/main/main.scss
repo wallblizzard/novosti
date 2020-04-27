@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        color: $black;
+    }
+}
+
+.section_about {
+    background: url(../../img/about-bg.jpg) no-repeat;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+}

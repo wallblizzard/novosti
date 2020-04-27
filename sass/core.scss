@@ -5,12 +5,12 @@
  **/
 
 html {
-	font-size: 19px;
+	font-size: 14px;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	max-width: 1440px;
 	color: $primary;
 	overflow-wrap: break-word;
   	word-wrap: break-word;
@@ -21,7 +21,8 @@ body {
 }
 
 .container {
-	@include min-max(320px, 1440px, 15px);
+	@include min-max(320px, 1170px, 15px);
+	margin: 0 auto;
 }
 
 .section {
